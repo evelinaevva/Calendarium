@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.boxTask {
+  transition: transform 4s ease-in-out 1s;
+}
+.hidden {
+  transform: scaleX(0);
+}
+#canvas {
+  position: absolute;
+  width: 300px;
+  top: 70px;
+  left: 95px;
+}

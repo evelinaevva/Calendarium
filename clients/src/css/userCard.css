@@ -1,0 +1,153 @@
+.userPageBox {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  width: 35%;
+  z-index: 999999;
+  height: 1200px;
+  height: 60%;
+  opacity: 0.7;
+  color: #ffffff;
+  opacity: 0.9;
+  background-color: #0f1111;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+}
+.userPageBox input,
+.userPageBox textarea,
+.userPageBox select {
+  padding: 15px;
+  display: inline-block;
+  border: none;
+  background: #f7f8fa;
+  color: #4b4d56;
+}
+
+.loginContainer button,
+.taskButton {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember", sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+.loginContainer button:hover {
+  background-color: var(--main-hover-tasks-color);
+}
+
+.loginContainer button:focus {
+  border-color: var(--main-button-hover-color);
+  box-shadow: var(--main-hover-tasks-color) 0 2px 5px 0;
+  outline: 0;
+}
+
+.hiddenBox {
+  translate: 100%;
+}
+
+.userContent {
+  display: flex;
+  flex-direction: column;
+}
+.userSettings * {
+  margin-top: 20px;
+}
+
+.headerButtonLogin {
+  background-color: transparent;
+  border: none;
+  margin: 15px 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.headerButtonLogin:hover {
+  box-shadow: 0 0px 3px var(--main-border-color);
+  box-shadow: inset 0 0px 3px var(--main-border-color);
+}
+.linkToTelegram {
+  text-decoration: none;
+  color: inherit;
+}
+.linkToTelegram:hover {
+  color: var(--secondary-font-color);
+}
+.radioBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+}
+.form_toggle {
+  display: inline-block;
+  overflow: hidden;
+  margin: 0;
+}
+.form_toggle-item {
+  float: left;
+  display: inline-block;
+  margin: 0;
+}
+.form_toggle-item input[type="radio"] {
+  display: none;
+  margin: 0;
+}
+.form_toggle-item label {
+  display: inline-block;
+  padding: 0px 15px;
+  line-height: 34px;
+  border: 1px solid var(--main-border-color);
+  border-right: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+.form_toggle .item-1 label {
+  border-radius: 6px 0 0 6px;
+  margin: 0;
+}
+.form_toggle .item-2 label {
+  border-radius: 0 6px 6px 0;
+  border-right: 1px solid var(--main-border-color);
+  margin: 0;
+}
+
+.form_toggle .item-3 label {
+  border-radius: 6px 0 0 6px;
+  margin: 0;
+}
+.form_toggle .item-4 label {
+  border-radius: 0 6px 6px 0;
+  border-right: 1px solid var(--main-border-color);
+  margin: 0;
+}
+
+/* Checked */
+.form_toggle .item-1 input[type="radio"]:checked + label {
+  background: var(--main-red-color);
+}
+.form_toggle .item-2 input[type="radio"]:checked + label {
+  background: var(--main-green-color);
+}
+
+.form_toggle .item-3 input[type="radio"]:checked + label {
+  background: var(--main-red-color);
+}
+.form_toggle .item-4 input[type="radio"]:checked + label {
+  background: var(--main-green-color);
+}

@@ -1,0 +1,122 @@
+.daysContainer {
+  background-color: var(--main-bg-color);
+  border-top: 3px solid var(--main-border-color);
+}
+.dayContainer {
+  min-width: 12%;
+  min-height: 100%;
+  position: relative;
+}
+.daysDate {
+  min-width: 100%;
+  font-size: 15px;
+  position: sticky;
+  vertical-align: middle;
+  top: 0;
+  margin-bottom: 20px;
+  background-color: var(--main-bg-color);
+  z-index: 1000;
+  color: var(--main-font-color);
+}
+
+.infoDay * {
+  height: 200px;
+  border: 1px solid var(--main-border-color);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 100%;
+}
+.hourList {
+  min-height: 100%;
+  padding: 0px;
+  margin-top: 2px;
+  height: 100%;
+  border-radius: 5px;
+}
+.hourList li {
+  min-height: 44.3px;
+  list-style-type: none;
+  border-bottom: 0.5px solid var(--main-border-color);
+  text-align: start;
+  display: flex;
+}
+
+.sector {
+  width: 100%;
+  display: inline-block;
+}
+.showBg {
+  background-color: var(--main-hover-tasks-color);
+}
+
+.sector .sectorPart {
+  height: 50%;
+  width: 100%;
+}
+
+.sector div:hover {
+  background-color: var(--main-hover-tasks-color);
+  border-radius: 5px;
+}
+
+.taskWindow {
+  background-color: var(--main-tasks-color);
+  border-radius: 5px;
+  text-align: center;
+  z-index: 60;
+  cursor: pointer;
+  color: var(--main-font-color);
+}
+
+.taskInfo {
+  position: absolute;
+  z-index: 70;
+  padding: 10px;
+  width: 200%;
+  max-height: 50%;
+  overflow: scroll;
+  color: var(--main-font-color);
+  opacity: 0.9;
+  background-color: var(--main-bg-color);
+  border: 1px solid var(--main-bg-color);
+  border-radius: 8px;
+  box-shadow: var(--main-border-color) 0 2px 5px 0;
+  opacity: 1;
+}
+.taskInfo .imgLink {
+  opacity: 0.5;
+}
+
+.taskInfoLeft {
+  left: 100%;
+}
+.taskInfoRight {
+  right: 100%;
+}
+
+.hiddenTaskInfo {
+  display: none;
+}
+
+.taskInfo .taskName {
+  font-weight: bolder;
+}
+
+.bgTaskWindow {
+  font-weight: bolder;
+}
+.linkBox {
+  text-align: end;
+}
+.imgLink {
+  width: 25px;
+  margin: 5px;
+}
+
+.imgContent {
+  max-width: 100%;
+}
+.imgContent img {
+  max-width: 100%;
+}

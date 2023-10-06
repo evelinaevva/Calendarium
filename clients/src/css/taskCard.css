@@ -1,0 +1,110 @@
+.taskCard {
+  position: absolute;
+  padding: 10px;
+  width: 30%;
+  z-index: 99;
+  left: 40%;
+  top: 20%;
+  opacity: 0.9;
+  background-color: var(--main-bg-color);
+  border: 1px solid var(--main-border-color);
+  border-radius: 8px;
+  box-shadow: var(--main-border-color) 0 2px 5px 0;
+}
+
+.taskCard input,
+.taskCard textarea,
+.taskCard select,
+.taskCard option {
+  padding: 8px;
+  margin: 5px 5px 22px;
+  display: inline-block;
+  border: 1px solid var(--main-border-color);
+  background: var(--secondary-bg-color);
+  color: var(--main-font-color);
+  border-radius: 10px;
+}
+
+.taskCard input,
+.taskCard textarea,
+.taskCard select:hover {
+  background: var(--main-border-color);
+}
+
+.uploadInput {
+  margin: 0;
+  padding: 0;
+}
+.uploadInput input {
+  background-color: var(--secondary-bg-color);
+}
+.uploadInput input * {
+  background-color: blue;
+}
+.uploadInput input:hover {
+  background-color: var(--main-border-color);
+}
+.taskCard {
+  color: var(--main-font-color);
+}
+.closeCard {
+  transform: scale(0);
+}
+.close {
+  all: unset;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.closePic {
+  height: 1.3rem;
+  opacity: 0.4;
+}
+.selectRepeat,
+.inp {
+  display: block;
+  margin: 5px auto;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.textarea {
+  height: 100px;
+  text-align: start;
+  vertical-align: top;
+  padding: 5px;
+}
+
+.taskCard * {
+  margin-bottom: 10px;
+}
+.alarm {
+  margin-left: 0.3rem;
+}
+.durationInp {
+  width: 60px;
+  height: 30px;
+  margin-right: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  background: #0a377e;
+  margin: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+.spanHidden {
+  color: var(--secondary-font-color);
+}
+.DayOfWeek {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

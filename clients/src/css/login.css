@@ -1,0 +1,19 @@
+.googlePic {
+  height: 2rem;
+  margin: 0.2rem;
+  padding-top: 0.4rem;
+}
+.googleButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}

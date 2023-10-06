@@ -1,0 +1,19 @@
+#root {
+  --main-bg-color: rgb(13, 17, 23);
+  --secondary-bg-color: rgba(97, 107, 122, 0.523);
+  --main-border-color: rgb(48, 54, 61);
+  --main-icon-color: #c2c9cf;
+  --main-font-color: white;
+  --secondary-font-color: rgb(100, 107, 116);
+  --main-red-color: #f85149;
+  --main-green-color: #238636;
+  --main-button-color: #1e252e;
+  --secondary-button-color: #373b3f;
+  --main-button-hover-color: #30363d;
+  --main-tasks-color: #527cc0;
+  --main-hover-tasks-color: #4f7dc86f;
+  position: relative;
+  text-align: center;
+  font-family: "Montserrat Alternates", sans-serif;
+  background-color: var(--main-bg-color);
+}

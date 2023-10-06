@@ -1,0 +1,55 @@
+.daysContainer {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  height: 90vh;
+  overflow: scroll;
+  width: 100%;
+}
+.dayContainer {
+  position: relative;
+  top: -1rem;
+}
+
+.hoursBar {
+  margin-right: 5px;
+  font-size: 16px;
+  list-style-type: none;
+  padding: 0;
+  text-align: end;
+}
+
+.changeWeek {
+  border: none;
+  background-color: transparent;
+}
+.changeWeek:hover {
+  background-color: var(--secondary-bg-color);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.plug {
+  position: sticky;
+  top: -14px;
+  min-height: 22px;
+  z-index: 10;
+  background-color: var(--main-bg-color);
+  margin-bottom: 0px;
+}
+
+.bakcgroundHourBar {
+  background-color: var(--main-hover-tasks-color);
+  border-radius: 5px;
+  //padding: 5px;
+}
+.hour {
+  font-size: 18px;
+  padding: 0 5px;
+  color: var(--main-font-color);
+}
+.minute {
+  font-size: 11.6px;
+  padding: 0 5px;
+  color: var(--secondary-font-color);
+}

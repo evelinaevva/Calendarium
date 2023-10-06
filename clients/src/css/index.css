@@ -1,0 +1,21 @@
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: rgb(13, 17, 23);
+}
+
+* {
+  box-sizing: border-box;
+  transition: all 0.2s;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  margin: 5px;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}

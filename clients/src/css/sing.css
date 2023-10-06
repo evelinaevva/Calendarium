@@ -1,0 +1,13 @@
+.regForm {
+  display: flex;
+  flex-direction: column;
+}
+.reg {
+  width: 80%;
+}
+.regForm * {
+  margin: 10px auto 0;
+  width: 80%;
+  padding: 5px;
+  border-radius: 7px;
+}

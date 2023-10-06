@@ -1,0 +1,97 @@
+.calendar {
+  padding: 1rem;
+  background-color: var(--main-bg-color);
+  border: 1px solid var(--main-border-color);
+  border-radius: 5px;
+  display: flex;
+  justify-content: start;
+  align-items: stretch;
+  flex-flow: column nowrap;
+  color: var(--main-font-color);
+  padding-top: 150px;
+}
+.gridBox {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 2px 0;
+}
+
+.date,
+.oldDate {
+  padding: 0.4rem;
+  margin: 0.4rem;
+}
+.date:hover {
+  cursor: pointer;
+  background-color: var(--main-button-hover-color);
+  border-radius: 5px;
+}
+.date-now {
+  font-weight: 700;
+  color: var(--main-red-color);
+  border-radius: 5px;
+}
+
+.navCalendar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+.navCalendar .month {
+  cursor: pointer;
+}
+
+.changeMonth {
+  list-style-type: none;
+  position: absolute;
+  top: 120px;
+  left: 220px;
+  z-index: 10;
+  padding: 5px 5px;
+  cursor: pointer;
+  color: var(--main-font-color);
+  background-color: var(--main-bg-color);
+  border: 1px solid var(--main-border-color);
+  border-radius: 8px;
+}
+.changeMonth li {
+  padding: 5px 20px;
+}
+.changeMonth li:hover {
+  background-color: var(--main-button-hover-color);
+  border-radius: 5px;
+}
+.oldDate {
+  color: var(--secondary-font-color);
+  cursor: default;
+}
+
+.select-date {
+  background-color: var(--main-hover-tasks-color);
+  border-radius: 5px;
+}
+
+.nextPicture,
+.previousPicture {
+  height: 30px;
+}
+
+.previousPicture {
+  transform: scaleX(-1);
+}
+.switchButton {
+  background-color: var(--main-bg-color);
+  border: none;
+}
+
+.year,
+.month {
+  color: var(--main-font-color);
+}
+.weekdays {
+  font-size: 0.9rem;
+  color: var(--main-font-color);
+  font-weight: 600;
+}

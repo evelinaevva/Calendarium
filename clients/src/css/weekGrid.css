@@ -1,0 +1,12 @@
+.weekGrid {
+  display: grid;
+  grid-template-columns: 1fr repeat(7, 3fr);
+}
+
+.grid-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-auto-flow: column;
+}

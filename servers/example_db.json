@@ -1,0 +1,31 @@
+{
+  "sessions": [
+    {
+      "id": "1047398835:1047398835",
+      "data": {
+        "startProcessSubscribe": true,
+        "startProcessUnSubscribe": false
+      }
+    },
+    {
+      "id": "286452812:286452812",
+      "data": {
+        "startProcessSubscribe": true
+      }
+    },
+    {
+      "id": "534763045:534763045",
+      "data": {
+        "startProcessSubscribe": true,
+        "startProcessUnSubscribe": false
+      }
+    },
+    {
+      "id": "456851134:456851134",
+      "data": {
+        "startProcessSubscribe": true,
+        "startProcessUnSubscribe": false
+      }
+    }
+  ]
+}
